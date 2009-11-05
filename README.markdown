@@ -21,6 +21,12 @@ For every stream you want to play you create an instance of SCAudioStream.
 Don't forget to implement the delegate protocol 'SCAudioStreamDelegate'. This protocol only specifies one method which is used to sign requests if you're about to play oauth protected streams.
 
 
+Example
+-------
+
+The XCode project contains a target called 'SCAudioStream DemoApp' whith it's source in the 'DemoApp' folder. This should give you a quick start on how to use the streaming api.
+
+
 License
 -------
 

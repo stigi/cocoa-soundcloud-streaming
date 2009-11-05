@@ -39,7 +39,7 @@ typedef enum {
 	SCAudioStreamState_Initialized = 0,
 	SCAudioStreamState_Playing,
 	SCAudioStreamState_Paused,
-	SCAudioStreamState_Stopped
+	SCAudioStreamState_Stopped // indicates the track has been played to the end
 } SCAudioStreamState;
 
 typedef enum {
@@ -101,6 +101,6 @@ typedef enum {
 #pragma mark -
 
 @protocol SCAudioStreamDelegate
-- (NSMutableURLRequest *)audioStream:(SCAudioStream *)audioStream needsSigningOfRequest:(NSURLRequest *)request;
+- (NSMutableURLRequest *)audioStream:(SCAudioStream *)audioStream needsSigningOfRequest:(NSMutableURLRequest *)request;
 @end
 
