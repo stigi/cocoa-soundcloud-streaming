@@ -24,7 +24,7 @@ Don't forget to implement the delegate protocol `SCAudioStreamDelegate`. This pr
 Example
 -------
 
-The XCode project contains a target called `SCAudioStream DemoApp` whith it's source in the `DemoApp` folder. This should give you a quick start on how to use the streaming api.
+The XCode project contains a target called `SCAudioStream DemoApp` with its source in the `DemoApp` folder. This should give you a quick start on how to use the streaming api.
 
 
 License
