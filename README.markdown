@@ -9,8 +9,8 @@ Basic Usage
 -----------
 
 ### Including the lib into your project
-You can either include the source files into your project or open the project and build the 'SCAudioStream' target to get you a compiled version of the lib.
-The latter will result in a static lib as a fat binary (build for the device and the simulator) in a directory called 'Dist'. Here you'll also find the header files for the lib (in fact it's just one header file 'SCAudioStream.h').
+You can either include the source files into your project or open the project and build the `SCAudioStream` target to get you a compiled version of the lib.
+The latter will result in a static lib as a fat binary (build for the device and the simulator) in a directory called `Dist`. Here you'll also find the header files for the lib (in fact it's just one header file `SCAudioStream.h`).
 Link the library and also link the AudioToolbox framework.
 
 ### Using the lib
@@ -18,13 +18,13 @@ For every stream you want to play you create an instance of SCAudioStream.
 
     SCAudioStream *stream = [[SCAudioStream alloc] initWithURL:streamURL delegate:self];
 
-Don't forget to implement the delegate protocol 'SCAudioStreamDelegate'. This protocol only specifies one method which is used to sign requests if you're about to play oauth protected streams.
+Don't forget to implement the delegate protocol `SCAudioStreamDelegate`. This protocol only specifies one method which is used to sign requests if you're about to play oauth protected streams.
 
 
 Example
 -------
 
-The XCode project contains a target called 'SCAudioStream DemoApp' whith it's source in the 'DemoApp' folder. This should give you a quick start on how to use the streaming api.
+The XCode project contains a target called `SCAudioStream DemoApp` whith it's source in the `DemoApp` folder. This should give you a quick start on how to use the streaming api.
 
 
 License
