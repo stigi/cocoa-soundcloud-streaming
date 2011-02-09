@@ -93,5 +93,22 @@
 	[_delegate scAudioStreamDataFetcher:self didFailWithError:httpError];
 }
 
+- (NSURLRequest *)connection:(NSURLConnection *)connection willSendRequest:(NSURLRequest *)request redirectResponse:(NSURLResponse *)redirectResponse {
+    // Ran into some issues with multiple redirects when using OAuth with some providers
+    NSRange found = [[[request URL] query] rangeOfString:@"Signature"];
+    if (found.length <= 0) {
+        return request;
+    }
+    NSMutableURLRequest *newRequest = [[[NSMutableURLRequest alloc] initWithURL:[request URL]] autorelease];
+    [newRequest setHTTPMethod:[request HTTPMethod]];
+    NSDictionary *headerFields = [request allHTTPHeaderFields];
+    for (NSString *headerFieldKey in [headerFields allKeys]) {
+        if ([headerFieldKey isEqualToString:@"Authorization"]) {
+            continue;
+        }
+        [newRequest setValue:[request valueForHTTPHeaderField:headerFieldKey] forHTTPHeaderField:headerFieldKey];
+    }
+    return  newRequest;
+}
 
 @end

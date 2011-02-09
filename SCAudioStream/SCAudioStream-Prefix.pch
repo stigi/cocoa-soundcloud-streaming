@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SCAudioStream' target in the 'SCAudioStream' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

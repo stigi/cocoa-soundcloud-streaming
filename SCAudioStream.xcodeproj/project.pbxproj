@@ -7,87 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		940AAEBA10A038D00026C8BB /* SCAudioStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 940AAEB210A038D00026C8BB /* SCAudioStream.h */; };
-		940AAEBB10A038D00026C8BB /* SCAudioStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 940AAEB310A038D00026C8BB /* SCAudioStream.m */; };
-		940AAEBC10A038D00026C8BB /* SCAudioBufferQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 940AAEB410A038D00026C8BB /* SCAudioBufferQueue.h */; };
-		940AAEBD10A038D00026C8BB /* SCAudioBufferQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 940AAEB510A038D00026C8BB /* SCAudioBufferQueue.m */; };
-		940AAEBE10A038D00026C8BB /* SCAudioFileStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 940AAEB610A038D00026C8BB /* SCAudioFileStreamParser.h */; };
-		940AAEBF10A038D00026C8BB /* SCAudioFileStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 940AAEB710A038D00026C8BB /* SCAudioFileStreamParser.m */; };
-		940AAEC010A038D00026C8BB /* SCAudioStreamPacketDescriptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 940AAEB810A038D00026C8BB /* SCAudioStreamPacketDescriptions.h */; };
-		940AAEC110A038D00026C8BB /* SCAudioStreamPacketDescriptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 940AAEB910A038D00026C8BB /* SCAudioStreamPacketDescriptions.m */; };
-		940AAEC810A0397D0026C8BB /* SCAudioStreamDataFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 940AAEC610A0397D0026C8BB /* SCAudioStreamDataFetcher.h */; };
-		940AAEC910A0397D0026C8BB /* SCAudioStreamDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 940AAEC710A0397D0026C8BB /* SCAudioStreamDataFetcher.m */; };
-		940AAF3510A0464C0026C8BB /* SCAudioStreamDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 940AAEC710A0397D0026C8BB /* SCAudioStreamDataFetcher.m */; };
-		940AAF3610A0464C0026C8BB /* SCAudioStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 940AAEB310A038D00026C8BB /* SCAudioStream.m */; };
-		940AAF3710A0464C0026C8BB /* SCAudioBufferQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 940AAEB510A038D00026C8BB /* SCAudioBufferQueue.m */; };
-		940AAF3810A0464C0026C8BB /* SCAudioFileStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 940AAEB710A038D00026C8BB /* SCAudioFileStreamParser.m */; };
-		940AAF3910A0464C0026C8BB /* SCAudioStreamPacketDescriptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 940AAEB910A038D00026C8BB /* SCAudioStreamPacketDescriptions.m */; };
-		940AAF3A10A046550026C8BB /* SCAudioStreamDataFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 940AAEC610A0397D0026C8BB /* SCAudioStreamDataFetcher.h */; };
-		940AAF3B10A046550026C8BB /* SCAudioStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 940AAEB210A038D00026C8BB /* SCAudioStream.h */; };
-		940AAF3C10A046550026C8BB /* SCAudioBufferQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 940AAEB410A038D00026C8BB /* SCAudioBufferQueue.h */; };
-		940AAF3D10A046550026C8BB /* SCAudioFileStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 940AAEB610A038D00026C8BB /* SCAudioFileStreamParser.h */; };
-		940AAF3E10A046550026C8BB /* SCAudioStreamPacketDescriptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 940AAEB810A038D00026C8BB /* SCAudioStreamPacketDescriptions.h */; };
-		940AAF3F10A046550026C8BB /* SCAudioStream_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* SCAudioStream_Prefix.pch */; };
-		940AAFB210A048F90026C8BB /* libSCAudioStream.a in Copy Lib */ = {isa = PBXBuildFile; fileRef = 940AAFA310A0472B0026C8BB /* libSCAudioStream.a */; };
-		940AAFB410A049290026C8BB /* SCAudioStream.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 940AAEB210A038D00026C8BB /* SCAudioStream.h */; };
+		016356D2130360D000B61ADA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016356D1130360D000B61ADA /* Foundation.framework */; };
+		016356DA130360DB00B61ADA /* SCAudioStreamDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 940AAEC710A0397D0026C8BB /* SCAudioStreamDataFetcher.m */; };
+		016356DC130360DB00B61ADA /* SCAudioStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 940AAEB310A038D00026C8BB /* SCAudioStream.m */; };
+		016356DE130360DB00B61ADA /* SCAudioBufferQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 940AAEB510A038D00026C8BB /* SCAudioBufferQueue.m */; };
+		016356E0130360DB00B61ADA /* SCAudioFileStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 940AAEB710A038D00026C8BB /* SCAudioFileStreamParser.m */; };
+		016356E2130360DB00B61ADA /* SCAudioStreamPacketDescriptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 940AAEB910A038D00026C8BB /* SCAudioStreamPacketDescriptions.m */; };
+		016356E3130360EC00B61ADA /* SCAudioStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 940AAEB210A038D00026C8BB /* SCAudioStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94A03CBB10A2E43600F3ED93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A03CBA10A2E43600F3ED93 /* main.m */; };
 		94A03D1610A2E4E200F3ED93 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94A03D1510A2E4E200F3ED93 /* MainWindow.xib */; };
 		94A03D1A10A2E4FE00F3ED93 /* SCDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A03D1910A2E4FE00F3ED93 /* SCDemoAppDelegate.m */; };
-		94A03D2010A2E60F00F3ED93 /* libSCAudioStream.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 940AAFA310A0472B0026C8BB /* libSCAudioStream.a */; };
 		94A03DA310A2EC0400F3ED93 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A03DA210A2EC0400F3ED93 /* AudioToolbox.framework */; };
-		AA747D9F0F9514B9006C5449 /* SCAudioStream_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* SCAudioStream_Prefix.pch */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		940AAFA610A047320026C8BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = "SCAudioStream dev";
-		};
-		940AAFA810A047320026C8BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 940AAF3110A046370026C8BB;
-			remoteInfo = "SCAudioStream sim";
-		};
-		94A03D2110A2E61300F3ED93 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 940AAFA210A0472B0026C8BB;
-			remoteInfo = SCAudioStream;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		940AAFB710A0492F0026C8BB /* Copy Lib */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(PROJECT_DIR)/Dist";
-			dstSubfolderSpec = 0;
-			files = (
-				940AAFB210A048F90026C8BB /* libSCAudioStream.a in Copy Lib */,
-			);
-			name = "Copy Lib";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		940AAFB810A0492F0026C8BB /* Copy Headers */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(PROJECT_DIR)/Dist/Headers";
-			dstSubfolderSpec = 0;
-			files = (
-				940AAFB410A049290026C8BB /* SCAudioStream.h in Copy Headers */,
-			);
-			name = "Copy Headers";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		016356D0130360D000B61ADA /* libSCAudioStream.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSCAudioStream.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		016356D1130360D000B61ADA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		016356D5130360D000B61ADA /* SCAudioStream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCAudioStream-Prefix.pch"; sourceTree = "<group>"; };
 		940AAEB210A038D00026C8BB /* SCAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAudioStream.h; sourceTree = "<group>"; };
 		940AAEB310A038D00026C8BB /* SCAudioStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAudioStream.m; sourceTree = "<group>"; };
 		940AAEB410A038D00026C8BB /* SCAudioBufferQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAudioBufferQueue.h; sourceTree = "<group>"; };
@@ -98,12 +34,6 @@
 		940AAEB910A038D00026C8BB /* SCAudioStreamPacketDescriptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAudioStreamPacketDescriptions.m; sourceTree = "<group>"; };
 		940AAEC610A0397D0026C8BB /* SCAudioStreamDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAudioStreamDataFetcher.h; sourceTree = "<group>"; };
 		940AAEC710A0397D0026C8BB /* SCAudioStreamDataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAudioStreamDataFetcher.m; sourceTree = "<group>"; };
-		940AAF3210A046370026C8BB /* libSCAudioStream sim.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSCAudioStream sim.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		940AAFA310A0472B0026C8BB /* libSCAudioStream.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSCAudioStream.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		940AAFBA10A04AF60026C8BB /* SCSoundCloudAPI+Streaming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCSoundCloudAPI+Streaming.h"; sourceTree = "<group>"; };
-		940AAFBB10A04AF60026C8BB /* SCSoundCloudAPI+Streaming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCSoundCloudAPI+Streaming.m"; sourceTree = "<group>"; };
-		940AAFBC10A04AF60026C8BB /* OAMutableURLRequest+Streaming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAMutableURLRequest+Streaming.h"; sourceTree = "<group>"; };
-		940AAFBD10A04AF60026C8BB /* OAMutableURLRequest+Streaming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OAMutableURLRequest+Streaming.m"; sourceTree = "<group>"; };
 		94A03C3F10A2E2EC00F3ED93 /* SCAudioStream DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SCAudioStream DemoApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A03C4110A2E2EC00F3ED93 /* SCAudioStream DemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCAudioStream DemoApp-Info.plist"; sourceTree = "<group>"; };
 		94A03CBA10A2E43600F3ED93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -113,14 +43,14 @@
 		94A03D1910A2E4FE00F3ED93 /* SCDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCDemoAppDelegate.m; sourceTree = "<group>"; };
 		94A03DA210A2EC0400F3ED93 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		AA747D9E0F9514B9006C5449 /* SCAudioStream_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAudioStream_Prefix.pch; sourceTree = SOURCE_ROOT; };
-		D2AAC07E0554694100DB518D /* libSCAudioStream dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSCAudioStream dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		940AAF3010A046370026C8BB /* Frameworks */ = {
+		016356CD130360D000B61ADA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016356D2130360D000B61ADA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,28 +58,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94A03D2010A2E60F00F3ED93 /* libSCAudioStream.a in Frameworks */,
 				94A03DA310A2EC0400F3ED93 /* AudioToolbox.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2AAC07C0554694100DB518D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		016356D3130360D000B61ADA /* SCAudioStream */ = {
+			isa = PBXGroup;
+			children = (
+				016356D4130360D000B61ADA /* Supporting Files */,
+			);
+			path = SCAudioStream;
+			sourceTree = "<group>";
+		};
+		016356D4130360D000B61ADA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				016356D5130360D000B61ADA /* SCAudioStream-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libSCAudioStream dev.a */,
-				940AAF3210A046370026C8BB /* libSCAudioStream sim.a */,
-				940AAFA310A0472B0026C8BB /* libSCAudioStream.a */,
 				94A03C3F10A2E2EC00F3ED93 /* SCAudioStream DemoApp.app */,
+				016356D0130360D000B61ADA /* libSCAudioStream.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,12 +94,11 @@
 			isa = PBXGroup;
 			children = (
 				94A03C4510A2E2FA00F3ED93 /* DemoApp */,
-				940AAFB910A04AE10026C8BB /* Additions */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
+				016356D3130360D000B61ADA /* SCAudioStream */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
-				94A03DA210A2EC0400F3ED93 /* AudioToolbox.framework */,
 			);
 			name = SCAudioStream;
 			sourceTree = "<group>";
@@ -171,6 +106,8 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				94A03DA210A2EC0400F3ED93 /* AudioToolbox.framework */,
+				016356D1130360D000B61ADA /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -198,17 +135,6 @@
 				AA747D9E0F9514B9006C5449 /* SCAudioStream_Prefix.pch */,
 			);
 			name = "Other Sources";
-			sourceTree = "<group>";
-		};
-		940AAFB910A04AE10026C8BB /* Additions */ = {
-			isa = PBXGroup;
-			children = (
-				940AAFBA10A04AF60026C8BB /* SCSoundCloudAPI+Streaming.h */,
-				940AAFBB10A04AF60026C8BB /* SCSoundCloudAPI+Streaming.m */,
-				940AAFBC10A04AF60026C8BB /* OAMutableURLRequest+Streaming.h */,
-				940AAFBD10A04AF60026C8BB /* OAMutableURLRequest+Streaming.m */,
-			);
-			path = Additions;
 			sourceTree = "<group>";
 		};
 		94A03C4510A2E2FA00F3ED93 /* DemoApp */ = {
@@ -243,69 +169,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		940AAF2E10A046370026C8BB /* Headers */ = {
+		016356CE130360D000B61ADA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				940AAF3A10A046550026C8BB /* SCAudioStreamDataFetcher.h in Headers */,
-				940AAF3B10A046550026C8BB /* SCAudioStream.h in Headers */,
-				940AAF3C10A046550026C8BB /* SCAudioBufferQueue.h in Headers */,
-				940AAF3D10A046550026C8BB /* SCAudioFileStreamParser.h in Headers */,
-				940AAF3E10A046550026C8BB /* SCAudioStreamPacketDescriptions.h in Headers */,
-				940AAF3F10A046550026C8BB /* SCAudioStream_Prefix.pch in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2AAC07A0554694100DB518D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA747D9F0F9514B9006C5449 /* SCAudioStream_Prefix.pch in Headers */,
-				940AAEBA10A038D00026C8BB /* SCAudioStream.h in Headers */,
-				940AAEBC10A038D00026C8BB /* SCAudioBufferQueue.h in Headers */,
-				940AAEBE10A038D00026C8BB /* SCAudioFileStreamParser.h in Headers */,
-				940AAEC010A038D00026C8BB /* SCAudioStreamPacketDescriptions.h in Headers */,
-				940AAEC810A0397D0026C8BB /* SCAudioStreamDataFetcher.h in Headers */,
+				016356E3130360EC00B61ADA /* SCAudioStream.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		940AAF3110A046370026C8BB /* SCAudioStream sim */ = {
+		016356CF130360D000B61ADA /* SCAudioStream */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 940AAF4F10A046880026C8BB /* Build configuration list for PBXNativeTarget "SCAudioStream sim" */;
+			buildConfigurationList = 016356D6130360D000B61ADA /* Build configuration list for PBXNativeTarget "SCAudioStream" */;
 			buildPhases = (
-				940AAF2E10A046370026C8BB /* Headers */,
-				940AAF2F10A046370026C8BB /* Sources */,
-				940AAF3010A046370026C8BB /* Frameworks */,
+				016356CC130360D000B61ADA /* Sources */,
+				016356CD130360D000B61ADA /* Frameworks */,
+				016356CE130360D000B61ADA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "SCAudioStream sim";
-			productName = "SCAudioStream sim";
-			productReference = 940AAF3210A046370026C8BB /* libSCAudioStream sim.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		940AAFA210A0472B0026C8BB /* SCAudioStream */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 940AAFAE10A047490026C8BB /* Build configuration list for PBXNativeTarget "SCAudioStream" */;
-			buildPhases = (
-				940AAFB010A0476C0026C8BB /* Build fat binary */,
-				940AAFB710A0492F0026C8BB /* Copy Lib */,
-				940AAFB810A0492F0026C8BB /* Copy Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				940AAFA710A047320026C8BB /* PBXTargetDependency */,
-				940AAFA910A047320026C8BB /* PBXTargetDependency */,
 			);
 			name = SCAudioStream;
 			productName = SCAudioStream;
-			productReference = 940AAFA310A0472B0026C8BB /* libSCAudioStream.a */;
+			productReference = 016356D0130360D000B61ADA /* libSCAudioStream.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		94A03C3E10A2E2EC00F3ED93 /* SCAudioStream DemoApp */ = {
@@ -319,29 +208,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				94A03D2210A2E61300F3ED93 /* PBXTargetDependency */,
 			);
 			name = "SCAudioStream DemoApp";
 			productName = "SCAudioStream DemoApp";
 			productReference = 94A03C3F10A2E2EC00F3ED93 /* SCAudioStream DemoApp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		D2AAC07D0554694100DB518D /* SCAudioStream dev */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "SCAudioStream dev" */;
-			buildPhases = (
-				D2AAC07A0554694100DB518D /* Headers */,
-				D2AAC07B0554694100DB518D /* Sources */,
-				D2AAC07C0554694100DB518D /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SCAudioStream dev";
-			productName = SCAudioStream;
-			productReference = D2AAC07E0554694100DB518D /* libSCAudioStream dev.a */;
-			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -353,16 +224,18 @@
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "SCAudioStream" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* SCAudioStream */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2AAC07D0554694100DB518D /* SCAudioStream dev */,
-				940AAF3110A046370026C8BB /* SCAudioStream sim */,
-				940AAFA210A0472B0026C8BB /* SCAudioStream */,
 				94A03C3E10A2E2EC00F3ED93 /* SCAudioStream DemoApp */,
+				016356CF130360D000B61ADA /* SCAudioStream */,
 			);
 		};
 /* End PBXProject section */
@@ -378,33 +251,16 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		940AAFB010A0476C0026C8BB /* Build fat binary */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Build fat binary";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# remove existing product lib file, just in case\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/libSCAudioStream.a\"\nrm -rf \"${PROJECT_DIR}/Dist/*\"\n\nmkdir -p \"${BUILD_DIR}/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/\"\n\n# combine lib files for various platforms into one\nlipo -create \"${BUILD_DIR}/${BUILD_STYLE}-iphoneos/libSCAudioStream dev.a\" \"${BUILD_DIR}/${BUILD_STYLE}-iphonesimulator/libSCAudioStream sim.a\" -output \"${BUILD_DIR}/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/libSCAudioStream.a\"";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		940AAF2F10A046370026C8BB /* Sources */ = {
+		016356CC130360D000B61ADA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				940AAF3510A0464C0026C8BB /* SCAudioStreamDataFetcher.m in Sources */,
-				940AAF3610A0464C0026C8BB /* SCAudioStream.m in Sources */,
-				940AAF3710A0464C0026C8BB /* SCAudioBufferQueue.m in Sources */,
-				940AAF3810A0464C0026C8BB /* SCAudioFileStreamParser.m in Sources */,
-				940AAF3910A0464C0026C8BB /* SCAudioStreamPacketDescriptions.m in Sources */,
+				016356DA130360DB00B61ADA /* SCAudioStreamDataFetcher.m in Sources */,
+				016356DC130360DB00B61ADA /* SCAudioStream.m in Sources */,
+				016356DE130360DB00B61ADA /* SCAudioBufferQueue.m in Sources */,
+				016356E0130360DB00B61ADA /* SCAudioFileStreamParser.m in Sources */,
+				016356E2130360DB00B61ADA /* SCAudioStreamPacketDescriptions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,69 +273,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2AAC07B0554694100DB518D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				940AAEBB10A038D00026C8BB /* SCAudioStream.m in Sources */,
-				940AAEBD10A038D00026C8BB /* SCAudioBufferQueue.m in Sources */,
-				940AAEBF10A038D00026C8BB /* SCAudioFileStreamParser.m in Sources */,
-				940AAEC110A038D00026C8BB /* SCAudioStreamPacketDescriptions.m in Sources */,
-				940AAEC910A0397D0026C8BB /* SCAudioStreamDataFetcher.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		940AAFA710A047320026C8BB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D2AAC07D0554694100DB518D /* SCAudioStream dev */;
-			targetProxy = 940AAFA610A047320026C8BB /* PBXContainerItemProxy */;
-		};
-		940AAFA910A047320026C8BB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 940AAF3110A046370026C8BB /* SCAudioStream sim */;
-			targetProxy = 940AAFA810A047320026C8BB /* PBXContainerItemProxy */;
-		};
-		94A03D2210A2E61300F3ED93 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 940AAFA210A0472B0026C8BB /* SCAudioStream */;
-			targetProxy = 94A03D2110A2E61300F3ED93 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		1DEB921F08733DC00010E9CD /* Debug */ = {
+		016356D7130360D000B61ADA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/SCAudioStream.dst;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = SCAudioStream_Prefix.pch;
-				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = "SCAudioStream dev";
-				SDKROOT = iphoneos3.1;
+				GCC_PREFIX_HEADER = "SCAudioStream/SCAudioStream-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		1DEB922008733DC00010E9CD /* Release */ = {
+		016356D8130360D000B61ADA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				DSTROOT = /tmp/SCAudioStream.dst;
-				GCC_MODEL_TUNING = G5;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = SCAudioStream_Prefix.pch;
-				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = "SCAudioStream dev";
+				GCC_PREFIX_HEADER = "SCAudioStream/SCAudioStream-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -509,59 +335,6 @@
 			};
 			name = Release;
 		};
-		940AAF3310A046380026C8BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PREBINDING = NO;
-				PRODUCT_NAME = "SCAudioStream sim";
-				SDKROOT = iphonesimulator3.1;
-			};
-			name = Debug;
-		};
-		940AAF3410A046380026C8BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PREBINDING = NO;
-				PRODUCT_NAME = "SCAudioStream sim";
-				SDKROOT = iphonesimulator3.1;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		940AAFA410A0472C0026C8BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PREBINDING = NO;
-				PRODUCT_NAME = SCAudioStream;
-			};
-			name = Debug;
-		};
-		940AAFA510A0472C0026C8BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				PREBINDING = NO;
-				PRODUCT_NAME = SCAudioStream;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
 		94A03C4210A2E2ED00F3ED93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -583,7 +356,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = "SCAudioStream DemoApp";
-				SDKROOT = iphoneos3.1.2;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -609,7 +382,7 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = "SCAudioStream DemoApp";
 				PROVISIONING_PROFILE = "";
-				SDKROOT = iphoneos3.1.2;
+				SDKROOT = iphoneos;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -617,38 +390,19 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "SCAudioStream dev" */ = {
+		016356D6130360D000B61ADA /* Build configuration list for PBXNativeTarget "SCAudioStream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DEB921F08733DC00010E9CD /* Debug */,
-				1DEB922008733DC00010E9CD /* Release */,
+				016356D7130360D000B61ADA /* Debug */,
+				016356D8130360D000B61ADA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "SCAudioStream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,
 				1DEB922408733DC00010E9CD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		940AAF4F10A046880026C8BB /* Build configuration list for PBXNativeTarget "SCAudioStream sim" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				940AAF3310A046380026C8BB /* Debug */,
-				940AAF3410A046380026C8BB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		940AAFAE10A047490026C8BB /* Build configuration list for PBXNativeTarget "SCAudioStream" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				940AAFA410A0472C0026C8BB /* Debug */,
-				940AAFA510A0472C0026C8BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
