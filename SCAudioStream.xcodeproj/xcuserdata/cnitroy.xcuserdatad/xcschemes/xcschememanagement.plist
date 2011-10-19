@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SCAudioStream DemoApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>SCAudioStream.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>016356CF130360D000B61ADA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>940AAF3110A046370026C8BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>940AAFA210A0472B0026C8BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>94A03C3E10A2E2EC00F3ED93</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2AAC07D0554694100DB518D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
